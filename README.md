@@ -90,59 +90,6 @@ AutoNexus provides a comprehensive suite of tools for any data scientist, from b
 
 -----
 
-## 🚀 Getting Started (Running Locally)
-
-To run this project on your local machine, follow these steps.
-
-### 1\. Prerequisites
-
-  - Python 3.10 or higher
-  - A Google Firebase project with **Authentication** (Email/Password provider enabled) and **Cloud Storage** enabled.
-
-### 2\. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-```
-
-### 3\. Set Up Your Environment
-
-```bash
-# Create and activate a virtual environment
-python -m venv venv
-source venv/bin/activate  # on Windows use `venv\Scripts\activate`
-
-# Install all required libraries
-pip install -r requirements.txt
-```
-
-### 4\. Configure Your Firebase Secrets (Crucial Step)
-
-This application requires a `.streamlit/secrets.toml` file to connect to your Firebase project.
-
-1.  Create a folder named `.streamlit` in the root of the project.
-2.  Inside it, create a file named `secrets.toml`.
-3.  Populate this file with your Firebase **Web App Config** and **Service Account Key**. See the template in the project or follow the [Streamlit documentation on secrets](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/secrets-management).
-
-### 5\. Launch the App
-
-```bash
-streamlit run app.py
-```
-
------
-
-## ☁️ Deploy on Streamlit Cloud
-
-To deploy this project:
-
-1.  Push your entire project to a GitHub repository.
-2.  Go to your app's settings on [Streamlit Cloud](https://streamlit.io/cloud) and navigate to the **Secrets** section.
-3.  Copy and paste the entire content of your local `.streamlit/secrets.toml` file into the secrets editor. This is a critical step for the live app to connect to Firebase.
-4.  Deploy from your GitHub repository. Ensure your app is set to use the same Python version as your local environment.
-
------
 
 ## 🙋‍♀️ Author
 
