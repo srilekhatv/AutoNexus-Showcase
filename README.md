@@ -1,6 +1,6 @@
 # 🚀 AutoNexus — Professional AutoML & Explainability Platform
 
-[](https://autonexus.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://autonexus.streamlit.app/)
 
 **AutoNexus** is a secure, multi-user, no-code AutoML web application built with **Streamlit** and powered by a **Firebase** backend. It enables users to create an account, upload datasets, perform a full end-to-end machine learning workflow, and save their results. The platform guides users from data cleaning and exploratory data analysis to advanced model tuning and interpretation using **SHAP** and **LIME**.
 
@@ -15,7 +15,7 @@ AutoNexus provides a comprehensive suite of tools for any data scientist, from b
   - 🔐 **Secure User Authentication:** Full login, signup, and password reset functionality powered by Firebase.
   - ☁️ **Cloud Storage:** (Coming Soon) Each user's datasets are stored in their own secure cloud folder.
 
-#### **🤖 Interactive AI Assistant**
+#### **Interactive AI Assistant**
   - **Conversational Guidance:** Get help and explanations at any step of the workflow.
   - **Context-Aware:** The assistant, powered by Google's Gemini models, understands the user's current dataset and progress in the app.
   - **Data Interpretation:** Ask questions in plain English about your data, models, and results.
@@ -39,7 +39,6 @@ AutoNexus provides a comprehensive suite of tools for any data scientist, from b
       - XGBoost
   - ⚙️ **Advanced Hyperparameter Tuning:**
       - Go beyond default settings with automated tuning.
-    <!-- end list -->
       * Choose between **GridSearchCV** (exhaustive) and **RandomizedSearchCV** (fast and efficient) to find the best parameters for your model.
   - 📈 **Robust Evaluation:**
       * Utilizes a proper **Train/Validate/Test split** for reliable performance metrics.
